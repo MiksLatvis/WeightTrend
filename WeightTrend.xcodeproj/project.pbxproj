@@ -11,7 +11,59 @@
 		BAFDA01C27D4C92C00B321B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA01B27D4C92C00B321B6 /* ContentView.swift */; };
 		BAFDA01E27D4C92E00B321B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA01D27D4C92E00B321B6 /* Assets.xcassets */; };
 		BAFDA02127D4C92E00B321B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA02027D4C92E00B321B6 /* Preview Assets.xcassets */; };
+		BAFDA02C27D4CC5600B321B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA02B27D4CC5600B321B6 /* Assets.xcassets */; };
+		BAFDA03227D4CC5700B321B6 /* WatchTrend WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BAFDA03127D4CC5700B321B6 /* WatchTrend WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BAFDA03727D4CC5700B321B6 /* WeightTrendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA03627D4CC5700B321B6 /* WeightTrendApp.swift */; };
+		BAFDA03927D4CC5700B321B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA03827D4CC5700B321B6 /* ContentView.swift */; };
+		BAFDA03B27D4CC5700B321B6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA03A27D4CC5700B321B6 /* NotificationController.swift */; };
+		BAFDA03D27D4CC5700B321B6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA03C27D4CC5700B321B6 /* NotificationView.swift */; };
+		BAFDA03F27D4CC5700B321B6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA03E27D4CC5700B321B6 /* ComplicationController.swift */; };
+		BAFDA04127D4CC5700B321B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA04027D4CC5700B321B6 /* Assets.xcassets */; };
+		BAFDA04427D4CC5700B321B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA04327D4CC5700B321B6 /* Preview Assets.xcassets */; };
+		BAFDA04927D4CC5700B321B6 /* WatchTrend.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BAFDA02927D4CC5500B321B6 /* WatchTrend.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAFDA03327D4CC5700B321B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAFDA00E27D4C92C00B321B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAFDA03027D4CC5700B321B6;
+			remoteInfo = "WatchTrend WatchKit Extension";
+		};
+		BAFDA04727D4CC5700B321B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAFDA00E27D4C92C00B321B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAFDA02827D4CC5500B321B6;
+			remoteInfo = WatchTrend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAFDA04D27D4CC5700B321B6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BAFDA03227D4CC5700B321B6 /* WatchTrend WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDA05127D4CC5700B321B6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BAFDA04927D4CC5700B321B6 /* WatchTrend.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BAFDA01627D4C92C00B321B6 /* WeightTrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightTrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +71,29 @@
 		BAFDA01B27D4C92C00B321B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAFDA01D27D4C92E00B321B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFDA02027D4C92E00B321B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAFDA02927D4CC5500B321B6 /* WatchTrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFDA02B27D4CC5600B321B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFDA03127D4CC5700B321B6 /* WatchTrend WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchTrend WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFDA03627D4CC5700B321B6 /* WeightTrendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrendApp.swift; sourceTree = "<group>"; };
+		BAFDA03827D4CC5700B321B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAFDA03A27D4CC5700B321B6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		BAFDA03C27D4CC5700B321B6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		BAFDA03E27D4CC5700B321B6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		BAFDA04027D4CC5700B321B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFDA04327D4CC5700B321B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAFDA04527D4CC5700B321B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFDA04627D4CC5700B321B6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BAFDA01327D4C92C00B321B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDA02E27D4CC5700B321B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				BAFDA01827D4C92C00B321B6 /* WeightTrend */,
+				BAFDA02A27D4CC5500B321B6 /* WatchTrend */,
+				BAFDA03527D4CC5700B321B6 /* WatchTrend WatchKit Extension */,
 				BAFDA01727D4C92C00B321B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				BAFDA01627D4C92C00B321B6 /* WeightTrend.app */,
+				BAFDA02927D4CC5500B321B6 /* WatchTrend.app */,
+				BAFDA03127D4CC5700B321B6 /* WatchTrend WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +142,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BAFDA02A27D4CC5500B321B6 /* WatchTrend */ = {
+			isa = PBXGroup;
+			children = (
+				BAFDA02B27D4CC5600B321B6 /* Assets.xcassets */,
+			);
+			path = WatchTrend;
+			sourceTree = "<group>";
+		};
+		BAFDA03527D4CC5700B321B6 /* WatchTrend WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BAFDA03627D4CC5700B321B6 /* WeightTrendApp.swift */,
+				BAFDA03827D4CC5700B321B6 /* ContentView.swift */,
+				BAFDA03A27D4CC5700B321B6 /* NotificationController.swift */,
+				BAFDA03C27D4CC5700B321B6 /* NotificationView.swift */,
+				BAFDA03E27D4CC5700B321B6 /* ComplicationController.swift */,
+				BAFDA04027D4CC5700B321B6 /* Assets.xcassets */,
+				BAFDA04527D4CC5700B321B6 /* Info.plist */,
+				BAFDA04627D4CC5700B321B6 /* PushNotificationPayload.apns */,
+				BAFDA04227D4CC5700B321B6 /* Preview Content */,
+			);
+			path = "WatchTrend WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BAFDA04227D4CC5700B321B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAFDA04327D4CC5700B321B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +184,51 @@
 				BAFDA01227D4C92C00B321B6 /* Sources */,
 				BAFDA01327D4C92C00B321B6 /* Frameworks */,
 				BAFDA01427D4C92C00B321B6 /* Resources */,
+				BAFDA05127D4CC5700B321B6 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BAFDA04827D4CC5700B321B6 /* PBXTargetDependency */,
 			);
 			name = WeightTrend;
 			productName = WeightTrend;
 			productReference = BAFDA01627D4C92C00B321B6 /* WeightTrend.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BAFDA02827D4CC5500B321B6 /* WatchTrend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFDA04E27D4CC5700B321B6 /* Build configuration list for PBXNativeTarget "WatchTrend" */;
+			buildPhases = (
+				BAFDA02727D4CC5500B321B6 /* Resources */,
+				BAFDA04D27D4CC5700B321B6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAFDA03427D4CC5700B321B6 /* PBXTargetDependency */,
+			);
+			name = WatchTrend;
+			productName = WatchTrend;
+			productReference = BAFDA02927D4CC5500B321B6 /* WatchTrend.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BAFDA03027D4CC5700B321B6 /* WatchTrend WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFDA04A27D4CC5700B321B6 /* Build configuration list for PBXNativeTarget "WatchTrend WatchKit Extension" */;
+			buildPhases = (
+				BAFDA02D27D4CC5700B321B6 /* Sources */,
+				BAFDA02E27D4CC5700B321B6 /* Frameworks */,
+				BAFDA02F27D4CC5700B321B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchTrend WatchKit Extension";
+			productName = "WatchTrend WatchKit Extension";
+			productReference = BAFDA03127D4CC5700B321B6 /* WatchTrend WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +241,12 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					BAFDA01527D4C92C00B321B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BAFDA02827D4CC5500B321B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BAFDA03027D4CC5700B321B6 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -116,6 +265,8 @@
 			projectRoot = "";
 			targets = (
 				BAFDA01527D4C92C00B321B6 /* WeightTrend */,
+				BAFDA02827D4CC5500B321B6 /* WatchTrend */,
+				BAFDA03027D4CC5700B321B6 /* WatchTrend WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +278,23 @@
 			files = (
 				BAFDA02127D4C92E00B321B6 /* Preview Assets.xcassets in Resources */,
 				BAFDA01E27D4C92E00B321B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDA02727D4CC5500B321B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFDA02C27D4CC5600B321B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAFDA02F27D4CC5700B321B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFDA04427D4CC5700B321B6 /* Preview Assets.xcassets in Resources */,
+				BAFDA04127D4CC5700B321B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +310,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BAFDA02D27D4CC5700B321B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFDA03B27D4CC5700B321B6 /* NotificationController.swift in Sources */,
+				BAFDA03927D4CC5700B321B6 /* ContentView.swift in Sources */,
+				BAFDA03F27D4CC5700B321B6 /* ComplicationController.swift in Sources */,
+				BAFDA03727D4CC5700B321B6 /* WeightTrendApp.swift in Sources */,
+				BAFDA03D27D4CC5700B321B6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAFDA03427D4CC5700B321B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAFDA03027D4CC5700B321B6 /* WatchTrend WatchKit Extension */;
+			targetProxy = BAFDA03327D4CC5700B321B6 /* PBXContainerItemProxy */;
+		};
+		BAFDA04827D4CC5700B321B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAFDA02827D4CC5500B321B6 /* WatchTrend */;
+			targetProxy = BAFDA04727D4CC5700B321B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BAFDA02227D4C92E00B321B6 /* Debug */ = {
@@ -319,6 +512,120 @@
 			};
 			name = Release;
 		};
+		BAFDA04B27D4CC5700B321B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchTrend WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = P4XYP9WP44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchTrend WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchTrend WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikslatvis.WeightTrend.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		BAFDA04C27D4CC5700B321B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchTrend WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = P4XYP9WP44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchTrend WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchTrend WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikslatvis.WeightTrend.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		BAFDA04F27D4CC5700B321B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4XYP9WP44;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WatchTrend_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTrend;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mikslatvis.WeightTrend;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikslatvis.WeightTrend.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		BAFDA05027D4CC5700B321B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4XYP9WP44;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WatchTrend_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTrend;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mikslatvis.WeightTrend;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikslatvis.WeightTrend.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +643,24 @@
 			buildConfigurations = (
 				BAFDA02527D4C92E00B321B6 /* Debug */,
 				BAFDA02627D4C92E00B321B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFDA04A27D4CC5700B321B6 /* Build configuration list for PBXNativeTarget "WatchTrend WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFDA04B27D4CC5700B321B6 /* Debug */,
+				BAFDA04C27D4CC5700B321B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFDA04E27D4CC5700B321B6 /* Build configuration list for PBXNativeTarget "WatchTrend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFDA04F27D4CC5700B321B6 /* Debug */,
+				BAFDA05027D4CC5700B321B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
