@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA90D83C27D71229003B6E48 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90D83B27D71229003B6E48 /* SettingsView.swift */; };
 		BAFDA01A27D4C92C00B321B6 /* WeightTrendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA01927D4C92C00B321B6 /* WeightTrendApp.swift */; };
 		BAFDA01C27D4C92C00B321B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA01B27D4C92C00B321B6 /* ContentView.swift */; };
 		BAFDA01E27D4C92E00B321B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA01D27D4C92E00B321B6 /* Assets.xcassets */; };
@@ -80,6 +81,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA90D83B27D71229003B6E48 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BAFDA01627D4C92C00B321B6 /* WeightTrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightTrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFDA01927D4C92C00B321B6 /* WeightTrendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrendApp.swift; sourceTree = "<group>"; };
 		BAFDA01B27D4C92C00B321B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				BAFDA01927D4C92C00B321B6 /* WeightTrendApp.swift */,
 				BAFDA01B27D4C92C00B321B6 /* ContentView.swift */,
 				BAFDA05227D6156E00B321B6 /* InfoView.swift */,
+				BA90D83B27D71229003B6E48 /* SettingsView.swift */,
 				BAFDA05427D6182F00B321B6 /* BasicTrendView.swift */,
 				BAFDA0E427D6E43800B321B6 /* FullTrendlineView.swift */,
 				BAFDA01D27D4C92E00B321B6 /* Assets.xcassets */,
@@ -343,6 +346,7 @@
 				BAFDA01C27D4C92C00B321B6 /* ContentView.swift in Sources */,
 				BAFDA05527D6182F00B321B6 /* BasicTrendView.swift in Sources */,
 				BAFDA05327D6156E00B321B6 /* InfoView.swift in Sources */,
+				BA90D83C27D71229003B6E48 /* SettingsView.swift in Sources */,
 				BAFDA01A27D4C92C00B321B6 /* WeightTrendApp.swift in Sources */,
 				BAFDA0E527D6E43800B321B6 /* FullTrendlineView.swift in Sources */,
 			);

@@ -9,7 +9,7 @@ import SwiftUI
 
 var frameWidth = 330.0
 var frameHeight = 100.0
-var dataLines = 24
+var dataLines = 25
 var dataPoints = 26
 
 var dataPointsUsed = 20
@@ -117,6 +117,7 @@ struct BasicTrendView: View {
                             lineCap: .round,
                             lineJoin: .round)
                     )
+                   // .stroke(.black, Style: StrokeStyle(lineWidth: 1))
                     //.strokeBorder(.blue, lineWidth: 40)
                     .frame(width: frameWidth-35, height: frameHeight)
                 
@@ -131,7 +132,10 @@ struct BasicTrendView: View {
                     .position(x: 0, y: frameHeight - 5)
                     .frame(width: frameWidth, height: frameHeight, alignment: .leading)
             }
-        
+            .padding(20)
+            .background(.blue)
+            .cornerRadius(20)
+            
     }
 }
 

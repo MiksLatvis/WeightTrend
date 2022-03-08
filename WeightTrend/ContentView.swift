@@ -14,7 +14,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 BasicTrendView()
-                    .padding()
+                    .padding(.horizontal)
                 Text("103.9kg")
                     .font(.title)
                 Text("✅ -7.7kg")
@@ -22,6 +22,8 @@ struct ContentView: View {
                     .background(.secondary)
             }
             .navigationTitle("WeightTrend")
+            .navigationBarItems(trailing: Image(systemName: "person.crop.circle"))
+                //.foregroundColor(.blue)
         }
     }
 }

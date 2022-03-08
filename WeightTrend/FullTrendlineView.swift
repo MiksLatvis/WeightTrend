@@ -9,17 +9,15 @@ import SwiftUI
 
 struct FullTrendlineView: View {
     var body: some View {
-        let minValue = 82
-        let maxValue = 111
         
         ZStack{
             
             Bars()
                 .stroke(.gray, style:  StrokeStyle(lineWidth: 1, lineCap: .round, lineJoin: .round))
-                .frame(width: frameWidth-35, height: frameHeight)
+                .frame(width: frameWidth, height: frameHeight)
             Trendline()
-                .stroke(.white, style: StrokeStyle(lineWidth: 2, lineCap: .round, lineJoin: .round))
-                .frame(width: frameWidth-35, height: frameHeight)
+                .stroke(.red, style: StrokeStyle(lineWidth: 2, lineCap: .round, lineJoin: .round))
+                .frame(width: frameWidth, height: frameHeight)
             Info()
                 .stroke(
                     .gray,
@@ -29,7 +27,7 @@ struct FullTrendlineView: View {
                         lineJoin: .round)
                 )
                 //.strokeBorder(.blue, lineWidth: 40)
-                .frame(width: frameWidth-35, height: frameHeight)
+                .frame(width: frameWidth, height: frameHeight)
             
             Text("\(maxValue)")
                 .font(.system(.caption, design: .rounded).weight(.heavy))
@@ -42,6 +40,7 @@ struct FullTrendlineView: View {
                 .position(x: 0, y: frameHeight - 5)
                 .frame(width: frameWidth, height: frameHeight, alignment: .leading)
         }
+        .background(.green)
         
     }
 }
