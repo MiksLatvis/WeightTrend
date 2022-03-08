@@ -21,6 +21,10 @@
 		BAFDA04127D4CC5700B321B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA04027D4CC5700B321B6 /* Assets.xcassets */; };
 		BAFDA04427D4CC5700B321B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA04327D4CC5700B321B6 /* Preview Assets.xcassets */; };
 		BAFDA04927D4CC5700B321B6 /* WatchTrend.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BAFDA02927D4CC5500B321B6 /* WatchTrend.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BAFDA05327D6156E00B321B6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA05227D6156E00B321B6 /* InfoView.swift */; };
+		BAFDA05527D6182F00B321B6 /* BasicTrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA05427D6182F00B321B6 /* BasicTrendView.swift */; };
+		BAFDA07127D6326F00B321B6 /* WatchMinimalTrendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA07027D6326F00B321B6 /* WatchMinimalTrendView.swift */; };
+		BAFDA0E527D6E43800B321B6 /* FullTrendlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA0E427D6E43800B321B6 /* FullTrendlineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,16 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BAFDA06F27D62BF300B321B6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +97,12 @@
 		BAFDA04327D4CC5700B321B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAFDA04527D4CC5700B321B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAFDA04627D4CC5700B321B6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		BAFDA05227D6156E00B321B6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		BAFDA05427D6182F00B321B6 /* BasicTrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTrendView.swift; sourceTree = "<group>"; };
+		BAFDA05C27D62BF200B321B6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		BAFDA05E27D62BF200B321B6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		BAFDA07027D6326F00B321B6 /* WatchMinimalTrendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMinimalTrendView.swift; sourceTree = "<group>"; };
+		BAFDA0E427D6E43800B321B6 /* FullTrendlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTrendlineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +129,7 @@
 				BAFDA01827D4C92C00B321B6 /* WeightTrend */,
 				BAFDA02A27D4CC5500B321B6 /* WatchTrend */,
 				BAFDA03527D4CC5700B321B6 /* WatchTrend WatchKit Extension */,
+				BAFDA05B27D62BF200B321B6 /* Frameworks */,
 				BAFDA01727D4C92C00B321B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,6 +149,9 @@
 			children = (
 				BAFDA01927D4C92C00B321B6 /* WeightTrendApp.swift */,
 				BAFDA01B27D4C92C00B321B6 /* ContentView.swift */,
+				BAFDA05227D6156E00B321B6 /* InfoView.swift */,
+				BAFDA05427D6182F00B321B6 /* BasicTrendView.swift */,
+				BAFDA0E427D6E43800B321B6 /* FullTrendlineView.swift */,
 				BAFDA01D27D4C92E00B321B6 /* Assets.xcassets */,
 				BAFDA01F27D4C92E00B321B6 /* Preview Content */,
 			);
@@ -155,6 +179,7 @@
 			children = (
 				BAFDA03627D4CC5700B321B6 /* WeightTrendApp.swift */,
 				BAFDA03827D4CC5700B321B6 /* ContentView.swift */,
+				BAFDA07027D6326F00B321B6 /* WatchMinimalTrendView.swift */,
 				BAFDA03A27D4CC5700B321B6 /* NotificationController.swift */,
 				BAFDA03C27D4CC5700B321B6 /* NotificationView.swift */,
 				BAFDA03E27D4CC5700B321B6 /* ComplicationController.swift */,
@@ -174,6 +199,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BAFDA05B27D62BF200B321B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAFDA05C27D62BF200B321B6 /* WidgetKit.framework */,
+				BAFDA05E27D62BF200B321B6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,6 +219,7 @@
 				BAFDA01327D4C92C00B321B6 /* Frameworks */,
 				BAFDA01427D4C92C00B321B6 /* Resources */,
 				BAFDA05127D4CC5700B321B6 /* Embed Watch Content */,
+				BAFDA06F27D62BF300B321B6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -306,7 +341,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAFDA01C27D4C92C00B321B6 /* ContentView.swift in Sources */,
+				BAFDA05527D6182F00B321B6 /* BasicTrendView.swift in Sources */,
+				BAFDA05327D6156E00B321B6 /* InfoView.swift in Sources */,
 				BAFDA01A27D4C92C00B321B6 /* WeightTrendApp.swift in Sources */,
+				BAFDA0E527D6E43800B321B6 /* FullTrendlineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFDA07127D6326F00B321B6 /* WatchMinimalTrendView.swift in Sources */,
 				BAFDA03B27D4CC5700B321B6 /* NotificationController.swift in Sources */,
 				BAFDA03927D4CC5700B321B6 /* ContentView.swift in Sources */,
 				BAFDA03F27D4CC5700B321B6 /* ComplicationController.swift in Sources */,
@@ -524,8 +563,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchTrend WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchTrend WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchTrend_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,8 +595,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchTrend WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchTrend WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchTrend_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

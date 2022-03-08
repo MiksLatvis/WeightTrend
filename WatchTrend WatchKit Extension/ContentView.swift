@@ -7,9 +7,12 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
+        
         VStack {
+            WatchMinimalTrendView()
             List{
                 Group{
                     Text("Weight Change Over Time")
