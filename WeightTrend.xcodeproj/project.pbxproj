@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA143FD027E32B86000CFE45 /* DrawGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA143FCF27E32B86000CFE45 /* DrawGrid.swift */; };
 		BA90D83C27D71229003B6E48 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90D83B27D71229003B6E48 /* SettingsView.swift */; };
 		BAFDA01A27D4C92C00B321B6 /* WeightTrendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA01927D4C92C00B321B6 /* WeightTrendApp.swift */; };
 		BAFDA01C27D4C92C00B321B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA01B27D4C92C00B321B6 /* ContentView.swift */; };
@@ -81,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA143FCF27E32B86000CFE45 /* DrawGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGrid.swift; sourceTree = "<group>"; };
 		BA90D83B27D71229003B6E48 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BAFDA01627D4C92C00B321B6 /* WeightTrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightTrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFDA01927D4C92C00B321B6 /* WeightTrendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrendApp.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				BAFDA05227D6156E00B321B6 /* InfoView.swift */,
 				BA90D83B27D71229003B6E48 /* SettingsView.swift */,
 				BAFDA05427D6182F00B321B6 /* BasicTrendView.swift */,
+				BA143FCF27E32B86000CFE45 /* DrawGrid.swift */,
 				BAFDA0E427D6E43800B321B6 /* FullTrendlineView.swift */,
 				BAFDA01D27D4C92E00B321B6 /* Assets.xcassets */,
 				BAFDA01F27D4C92E00B321B6 /* Preview Content */,
@@ -347,6 +350,7 @@
 				BAFDA05527D6182F00B321B6 /* BasicTrendView.swift in Sources */,
 				BAFDA05327D6156E00B321B6 /* InfoView.swift in Sources */,
 				BA90D83C27D71229003B6E48 /* SettingsView.swift in Sources */,
+				BA143FD027E32B86000CFE45 /* DrawGrid.swift in Sources */,
 				BAFDA01A27D4C92C00B321B6 /* WeightTrendApp.swift in Sources */,
 				BAFDA0E527D6E43800B321B6 /* FullTrendlineView.swift in Sources */,
 			);

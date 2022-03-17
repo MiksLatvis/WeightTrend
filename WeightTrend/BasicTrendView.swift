@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 var frameWidth = 330.0
 var frameHeight = 100.0
 var dataLines = 25
@@ -94,8 +96,13 @@ struct Trendline: Shape {
 }
 
 struct BasicTrendView: View {
+    @State private var Measurements = [Result]()
     
     var body: some View {
+        drawGrid()
+            
+        
+        
         
             ZStack{
                 Text("You are loosing 0.2 kg per week")
